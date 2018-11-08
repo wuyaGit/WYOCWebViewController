@@ -1,0 +1,39 @@
+PODS:
+  - dsBridge (3.0.5)
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
+  - WYOCWebViewController (0.0.1):
+    - dsBridge
+    - SDWebImage
+    - YYCategories
+    - YYModel
+  - YYCategories (1.0.4):
+    - YYCategories/no-arc (= 1.0.4)
+  - YYCategories/no-arc (1.0.4)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - WYOCWebViewController (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - dsBridge
+    - SDWebImage
+    - YYCategories
+    - YYModel
+
+EXTERNAL SOURCES:
+  WYOCWebViewController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  dsBridge: 6ef092a7abdbe33f24b20d19edae1ca0ab99ded9
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+  WYOCWebViewController: 4a3e5fcb3ebd01236371449ea8d586fbe8f69c34
+  YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: 9b607ab958a2975686d7f7db30c4d8533d6f211c
+
+COCOAPODS: 1.5.3

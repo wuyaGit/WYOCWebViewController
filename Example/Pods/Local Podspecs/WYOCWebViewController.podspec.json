@@ -1,0 +1,45 @@
+{
+  "name": "WYOCWebViewController",
+  "version": "0.0.1",
+  "summary": "iOS 常用组件之WebViewController.",
+  "description": "iOS 常用组件之WebViewController.",
+  "homepage": "https://github.com/wuyaGit/WYOCWebViewController",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wuya": "407671883@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/wuyaGit/WYOCWebViewController.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "WYOCWebViewController/Classes/**/*",
+  "resource_bundles": {
+    "WYOCWebViewController": [
+      "WYOCWebViewController/WYOCWebViewController.bundle"
+    ]
+  },
+  "frameworks": [
+    "UIKit",
+    "WebKit"
+  ],
+  "dependencies": {
+    "dsBridge": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "SDWebImage": [
+
+    ],
+    "YYCategories": [
+
+    ]
+  }
+}

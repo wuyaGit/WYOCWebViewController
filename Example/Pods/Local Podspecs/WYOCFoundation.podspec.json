@@ -1,0 +1,48 @@
+{
+  "name": "WYOCFoundation",
+  "version": "0.0.1",
+  "summary": "iOS 常用基本组件.",
+  "description": "iOS 常用基本组件.",
+  "homepage": "https://github.com/wuyaGit/WYOCFoundation",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wuya": "407671883@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/wuyaGit/WYOCFoundation.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "WYOCFoundation/Classes/WYOCFoundationHeader.h",
+  "resource_bundles": {
+    "WYOCFoundation": [
+      "WYOCFoundation/WYOCFoundation.bundle"
+    ]
+  },
+  "dependencies": {
+    "MBProgressHUD": [
+
+    ],
+    "Toast": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "Aspects": [
+
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "Content",
+      "source_files": "WYOCFoundation/Classes/**/*.{h,m}",
+      "exclude_files": "WYOCFoundation/Classes/WYOCFoundationHeader.h"
+    }
+  ]
+}
